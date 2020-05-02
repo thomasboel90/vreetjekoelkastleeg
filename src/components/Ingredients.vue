@@ -18,20 +18,20 @@ export default {
     return {
       ingredient: '',
       ingredients: [
-        {'ingredient': 'tomato'},
-        {'ingredient': 'cucumber'},
-        {'ingredient': 'chicken'},
-        {'ingredient': 'rice'}
-      ]
-    }
+        { ingredient: 'tomato' },
+        { ingredient: 'cucumber' },
+        { ingredient: 'chicken' },
+        { ingredient: 'rice' },
+      ],
+    };
   },
-  methods : {
-      addIngredient(){
-          this.ingredients.push({ingredient: this.ingredient});
-          this.ingredient = '';
-      }
-  }
-}
+  methods: {
+    addIngredient() {
+      this.ingredients.push({ ingredient: this.ingredient });
+      this.ingredient = '';
+    },
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
