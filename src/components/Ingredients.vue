@@ -9,6 +9,7 @@
     </ul>
       <p>These are the ingredients in your fridge.</p>
     </div>
+    Thomas is een mongooltje. dankje doen
 </template>
 
 <script>
